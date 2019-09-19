@@ -1,0 +1,26 @@
+#postpage{
+    background: url(https://images.pexels.com/photos/997723/pexels-photo-997723.jpeg?cs=srgb&dl=background-blog-coffee-997723.jpg&fm=jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: serif;
+}
+html{
+    height: 100%;
+}
+.tab{
+    border: 1px solid aquamarine;
+    display: flex;
+}
+
+.sidebar{
+    width: 125px;
+    flex-shrink: 0;
+    background-color: gray;
+}
+
+.tab-button{
+    display: block;
+    padding: 10px;
+    background: greenyellow;
+    width: 100%;
+}

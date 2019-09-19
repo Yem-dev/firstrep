@@ -20,18 +20,3 @@ border-radius: 20px;
 border-color: brown
 
 }
-.tab{
-    border: 1px solid aquamarine;
-    display: flex;
-}
-
-.sidebar{
-    width: 125px;
-    flex-shrink: 0;
-    background-color: gray;
-}
-
-.tab-button{
-    display: block;
-    padding: 10px;
-}
