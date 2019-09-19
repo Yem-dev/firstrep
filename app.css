@@ -4,8 +4,34 @@ body{
     background-position: center;
     font-family: serif;
 }
+html{
+    height: 100%;
+}
 
 #landingtext{
     text-align: center;
     padding: 10%
+}
+a.btn{
+margin: 20px 10px;
+width: 100px;
+padding: 20px;
+border-radius: 20px;
+border-color: brown
+
+}
+.tab{
+    border: 1px solid aquamarine;
+    display: flex;
+}
+
+.sidebar{
+    width: 125px;
+    flex-shrink: 0;
+    background-color: gray;
+}
+
+.tab-button{
+    display: block;
+    padding: 10px;
 }
