@@ -1,0 +1,11 @@
+body{
+    background-image: url(https://images.pexels.com/photos/997723/pexels-photo-997723.jpeg?cs=srgb&dl=background-blog-coffee-997723.jpg&fm=jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: serif;
+}
+
+#landingtext{
+    text-align: center;
+    padding: 10%
+}
