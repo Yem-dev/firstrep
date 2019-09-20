@@ -4,8 +4,12 @@
     background-position: center;
     font-family: serif;
 }
-html{
+#posting{
     height: 100%;
+}
+p{
+    margin: 50%;
+    width: 400px
 }
 .tab{
     border: 1px solid aquamarine;
@@ -23,4 +27,5 @@ html{
     padding: 10px;
     background: greenyellow;
     width: 100%;
+    cursor: pointer;
 }

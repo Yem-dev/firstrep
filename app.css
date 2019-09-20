@@ -7,16 +7,24 @@ body{
 html{
     height: 100%;
 }
-
-#landingtext{
-    text-align: center;
-    padding: 10%
-}
-a.btn{
-margin: 20px 10px;
-width: 100px;
-padding: 20px;
-border-radius: 20px;
-border-color: brown
+.textheading{
+    font-weight: 5000;
+    font-size: 2rem;
+    color:black;
 
 }
+h4{
+    color: black;
+    font-weight: 1000
+
+}
+#postblog label{font-weight: bold;font-size: 2rem}
+#loginf{ 
+    background-color: burlywood;
+    padding:7px;
+    border-radius:5px;
+}
+
+#signupf{display:none; background-color: burlywood;border-radius:5px;}
+#postcontent{width:100%;}
+#postcontent1{background-color:#cccccc;padding:7px;border-radius:5px;min-height:400px;display:none}

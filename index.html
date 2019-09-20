@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>OwnYourBlog</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <script src="./jquery-3.4.1.min.js"></script>
+    <script src="./bootstrap.js"></script>
     <link rel="stylesheet" href="app.css">
+    <script src="js.js"></script>
 
 </head>
 <body>
@@ -23,18 +26,6 @@
                       <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
 
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Features
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">View Topics</a>
-                        <a class="dropdown-item" href="#">View Gallery</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Advertise</a>
-                      </div>
-                    </li>
-                    <li>
                             <a class="nav-link" href="#">Contact Us <span class="sr-only">(current)</span></a>
                           </li>
       
@@ -49,21 +40,55 @@
 
 <div class="container">
     <div class="row">
-        <div class="co-lg-12">
+        <div class="col-lg-12">
             <div id="landingtext">
-                <h1>Own Your Blog</h1>
+                <h1 class="textheading">Own Your Blog</h1>
                 <h4>Build Your Network</h4>
-                <!-- <button type="button" class="btn btn-primary">Sign Up</button> -->
-                <a class="btn btn-primary" href="#">Sign Up</a>
-                <a class="btn btn-secondary" href="#">Log In</a>
+                
+        <div class="container">
+          <div id='signupf' style="width: 500px"><h2>SIGNUP</h2><form id='signupcol'>
+                <div class="form-group">
+                        <label for="enterUsername1">Name</label>
+                        <input type="text" class="form-control" id="lname" aria-describedby="emailHelp" placeholder="Enter Username" required>
+                </div>
+                <div>
+                        <label for="enterEmail1">Email address</label>
+                        <input type="email" class="form-control" id="lemail" aria-describedby="emailHelp" placeholder="Enter email" required>
+                </div>
+                      <div class="form-group">
+                        <label for="enterPassword1">Password</label>
+                        <input type="password" class="form-control" id="lpass" placeholder="Enter Password" required>
+                      </div>
+                                            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+       
+      </form></div>
+      <div id='loginf' style="width: 500px"><h2>LOGIN</h2><form id='logincol'>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="semail" aria-describedby="emailHelp" placeholder="Enter email" required>
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="spass" placeholder="Password" required>
+          </div>
+         
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form></div>
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-secondary active" id="option1">
+              <input type="radio" name="options"  autocomplete="off" checked>LOGIN
+            </label>
+            <label class="btn btn-secondary" id="option2">
+              <input type="radio" name="options"  autocomplete="off">SIGNUP
+            </label>
+          </div>
             </div>
         </div>
+        
     </div>
-</div>
-
-
-
-   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>  
+</div> 
+ 
 </body>
 </html>
